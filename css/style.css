@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    margin: auto;
+    max-width: 1550px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.images {
+    padding: 5%;
+}
+
+.images img{
+    display: none;
+}
+
+.images .active {
+    display: block;
+}
