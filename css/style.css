@@ -33,6 +33,6 @@ img {
     display: none;
 }
 
-.images .active {
+.images img.active {
     display: block;
 }
