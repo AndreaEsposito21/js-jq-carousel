@@ -23,7 +23,7 @@ frecciaSinistra.click(function() {
     elementoAttivo.removeClass('active');
 
     if ( elementoAttivo.hasClass('first') ) {
-        $('.slider .first').addClass('active');
+        $('.slider .last').addClass('active');
     } else {
         var imgPrecedente = elementoAttivo.prev();
         imgPrecedente.addClass('active');
